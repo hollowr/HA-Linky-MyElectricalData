@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MyElectricalData — Linky",
+        "data": {
+          "pdl": "Numéro PDL (14 chiffres)",
+          "token": "Token d'accès MyElectricalData"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de contacter l'API",
+      "invalid_auth": "PDL ou token invalide"
+    }
+  }
+}

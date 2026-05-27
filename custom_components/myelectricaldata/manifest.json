@@ -1,0 +1,10 @@
+{
+  "domain": "myelectricaldata",
+  "name": "MyElectricalData (Linky)",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://www.myelectricaldata.fr",
+  "requirements": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling"
+}
