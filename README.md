@@ -1,4 +1,3 @@
-# HA-Linky-MyElectricalData
 # MyElectricalData — Linky pour Home Assistant
 
 Intégration personnalisée pour Home Assistant permettant de suivre la consommation électrique d'un compteur Linky via l'API [MyElectricalData](https://www.myelectricaldata.fr).
@@ -56,15 +55,13 @@ Pour afficher les données dans le dashboard Énergie de Home Assistant :
 1. **Paramètres → Énergie → Réseau électrique → Ajouter consommation**
 2. Sélectionner `sensor.linky_energie_totale`
 
-L'historique complet (depuis janvier 2025) est injecté automatiquement au premier démarrage.
+L'historique complet (depuis janvier 2025) est injecté automatiquement au premier démarrage — les données apparaissent immédiatement dans le dashboard.
 
 ## Remarques
 
 - Les données Linky ont un délai d'environ 24h — la consommation d'aujourd'hui sera visible demain
 - Les données sont rafraîchies toutes les heures
 - Aucune donnée n'est stockée localement — tout est récupéré en direct depuis l'API MyElectricalData
-  
-## Faites lui un Don pour son travail
 
 ## Licence
 
